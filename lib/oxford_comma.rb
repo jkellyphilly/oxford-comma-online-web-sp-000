@@ -4,6 +4,7 @@ def oxford_comma(array)
   elsif array.size == 2
     array[0] << " and " << array[1]
   else
-    puts "The rest of my code here"
+    return_string = ""
+    
   end
 end
