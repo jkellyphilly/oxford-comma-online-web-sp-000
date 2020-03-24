@@ -4,8 +4,8 @@ def oxford_comma(array)
   elsif array.size == 2
     array[0] << " and " << array[1]
   else
-    return_string = ""
     array.join(", ")
     puts array.last
+    array
   end
 end
